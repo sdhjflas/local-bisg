@@ -29,7 +29,7 @@ def serve_form():
     """Serve the simple label generation form"""
     html_path = os.path.join(os.path.dirname(__file__), 'simple_form.html')
     if os.path.exists(html_path):
-        with open(html_path, 'r') as f:
+        with open(html_path, 'r', encoding='utf-8') as f:
             return f.read()
     else:
         return jsonify({'error': 'Form not found'}), 404
