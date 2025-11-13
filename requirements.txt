@@ -1,0 +1,28 @@
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+python-dotenv==1.0.0
+
+# Security & Rate Limiting
+Flask-Limiter==3.5.0
+Flask-Talisman==1.1.0
+bleach==6.1.0
+
+# Stripe Integration (6.x to avoid lazy-loading issues)
+stripe==6.7.0
+
+# Google Sheets API
+google-api-python-client==2.108.0
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# PDF Generation
+reportlab==4.0.7
+
+# Utilities
+Werkzeug==3.0.1
+gunicorn==21.2.0
+
+# Error Tracking (Optional - uncomment to enable)
+# sentry-sdk[flask]==1.39.1
