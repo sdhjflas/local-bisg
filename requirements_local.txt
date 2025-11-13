@@ -1,0 +1,12 @@
+# Minimal requirements for local label generation
+# Only includes what's needed to generate labels
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# PDF Generation (only dependency needed for label generation)
+reportlab==4.0.7
+
+# Utilities
+Werkzeug==3.0.1
