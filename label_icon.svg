@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="256" height="256" rx="32" fill="#667eea"/>
+
+  <!-- Label shape -->
+  <g transform="translate(48, 64)">
+    <!-- Main label rectangle -->
+    <rect x="0" y="0" width="160" height="100" rx="8" fill="white" stroke="#334155" stroke-width="4"/>
+
+    <!-- Barcode lines -->
+    <rect x="20" y="60" width="3" height="25" fill="#1e293b"/>
+    <rect x="28" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="34" y="60" width="4" height="25" fill="#1e293b"/>
+    <rect x="42" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="48" y="60" width="3" height="25" fill="#1e293b"/>
+    <rect x="55" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="61" y="60" width="4" height="25" fill="#1e293b"/>
+    <rect x="69" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="75" y="60" width="3" height="25" fill="#1e293b"/>
+    <rect x="82" y="60" width="4" height="25" fill="#1e293b"/>
+    <rect x="90" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="96" y="60" width="3" height="25" fill="#1e293b"/>
+    <rect x="103" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="109" y="60" width="4" height="25" fill="#1e293b"/>
+    <rect x="117" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="123" y="60" width="3" height="25" fill="#1e293b"/>
+    <rect x="130" y="60" width="2" height="25" fill="#1e293b"/>
+    <rect x="136" y="60" width="4" height="25" fill="#1e293b"/>
+
+    <!-- Label text -->
+    <text x="80" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">ISBN</text>
+    <text x="80" y="45" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">9780000000000</text>
+  </g>
+
+  <!-- Price tag corner -->
+  <circle cx="200" cy="80" r="24" fill="#f59e0b"/>
+  <text x="200" y="88" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">$</text>
+</svg>
